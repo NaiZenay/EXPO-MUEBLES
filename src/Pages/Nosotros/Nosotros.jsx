@@ -1,9 +1,6 @@
-import PageLayOut from "../../LAYOUT/PageLayOut";
 const Nosotros = () => {
     return (
-        <PageLayOut>
-            NOSOTROS
-        </PageLayOut>
+     <p>WUENAS</p>
     )
 }
 
