@@ -1,0 +1,47 @@
+.limon-viejo-BG{
+  background-color: #d1df6b !important;
+}
+.limon-viejo-TXT{
+  color: #d1df6b;
+}
+.kk-BG{
+  background-color: #997062 !important;
+}
+.kk-TXT{
+color: #997062;
+}
+.huevo-BG{
+  background-color: #f8f3f1;
+}
+.huevo-TXT{
+  background-color: #f8f3f1;
+}
+.full-screen{
+  height: 100vh;
+}
+
+.logo-marca{
+  width: 150px;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'TTSansThin';
+  src: url('./fonts/TT-Backwards-Sans-Thin-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TTSansRegular';
+  src: url('./fonts/TT-Backwards-Sans-Regular-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.SANS-THIN{
+  font-family: "TTSansThin";
+}
+
+.SANS-REGULAR{
+  font-family: "TTSansRegular";
+  letter-spacing: 2px;
+}

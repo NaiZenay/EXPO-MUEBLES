@@ -1,0 +1,14 @@
+.banner-HOME{
+    height: 85vh;
+}
+
+.texto-banner{
+    font-size: 4rem;
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .banner-HOME{
+        height: 90vh;
+    }
+}

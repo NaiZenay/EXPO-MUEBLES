@@ -1,0 +1,14 @@
+.lanzaminetos{
+    font-size: 13rem;
+    line-height: 90%;
+}
+.lanzamientos-container{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+/* home.css */
+#home-content {
+    position: relative;
+    visibility: hidden; /* Ocultar contenido hasta que la animación inicie */
+  }
