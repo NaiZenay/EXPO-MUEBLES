@@ -4,7 +4,15 @@
 
 .texto-banner{
     font-size: 4rem;
+}
 
+.recuadro-banner-NOSOTROS{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 18%;
+    right: 20%;
+    z-index: -1;
 }
 
 @media (min-width:768px) and (max-width:1024px){
