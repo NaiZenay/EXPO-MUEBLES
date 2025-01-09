@@ -15,12 +15,17 @@
     z-index: 3;
 }
 
-/* Transición inicial para los elementos */
-.col-lg-7 .img-fluid {
-    transition: transform 0.3s ease-in-out;
+.recuadro-banner-marca{
+    height: 80px;
+    width: 700px;
+    position: absolute;
+    top: 10%;
+    right: -2%;
+    z-index: 3;
 }
 
-.col-lg-7 .recuadro-banner-NOSOTROS {
+/* Transición inicial para los elementos */
+.col-lg-7 .img-fluid {
     transition: transform 0.3s ease-in-out;
 }
 
@@ -29,10 +34,21 @@
     transform: translateX(10px);
 }
 
+.col-lg-7 .recuadro-banner-NOSOTROS {
+    transition: transform 0.3s ease-in-out;
+}
+
 .col-lg-7:hover .recuadro-banner-NOSOTROS {
     transform: translate(-10px, -10px);
 }
 
+.col-lg-7 .recuadro-banner-marca {
+    transition: transform 0.3s ease-in-out;
+}
+
+.col-lg-7:hover .recuadro-banner-marca {
+    transform: translate(10px, -10px);
+}
 
 @media (min-width:768px) and (max-width:1024px){
     .banner-HOME{

@@ -9,7 +9,7 @@ import logo_Labenze from "../../assets/logos/labenze.webp"
 import menta from "../../assets/Prod/MentaPOP.png"
 import mimosas from "../../assets/Prod/Mimosas.png"
 import rr from "../../assets/Prod/Round&Roll.png"
-
+import NombreProducto from '../Productos/NombreProducto';
 
 const Carrusel = () => {
     return (
@@ -28,7 +28,7 @@ const Carrusel = () => {
                     <div className='row'>
                         <div className="col-lg-4">
                             {/* MARCA */}
-                            <span className="SANS-REGULAR fs-4"><span className="limon-viejo-TXT">___</span>MENTA POP</span><br />
+                            <NombreProducto nombre={"Menta_POP"}/>
                             {/* NOMBRE DE PRODUCTO */}
                             <img className="logo-marca" src={logo_Labenze} alt="labenze" />
                         </div>
@@ -43,7 +43,8 @@ const Carrusel = () => {
                     <div className='row'>
                         <div className="col-lg-4">
                             {/* MARCA */}
-                            <span className="SANS-REGULAR fs-4"><span className="limon-viejo-TXT">___</span>MIMOSAS</span><br />
+                            <NombreProducto nombre={"mimosas"}/>
+                            
                             {/* NOMBRE DE PRODUCTO */}
                             <img className="logo-marca" src={logo_Labenze} alt="labenze" />
                         </div>
@@ -61,10 +62,7 @@ const Carrusel = () => {
                             <img className="imgCardCarrusel" width={420} height={320} src={rr} alt="" />
                         </div>
                         <div className="col-lg-4 d-flex flex-column align-items-end justify-content-end" style={{ height: '350px' }}>
-                            {/* MARCA */}
-                            <span className="SANS-REGULAR fs-4">
-                                <span className="limon-viejo-TXT">___</span>ROUND & ROLL
-                            </span>
+                        <NombreProducto nombre={"round & Roll"}/>
                             {/* NOMBRE DE PRODUCTO */}
                             <img className="logo-marca mt-2" src={logo_Labenze} alt="labenze" />
                         </div>

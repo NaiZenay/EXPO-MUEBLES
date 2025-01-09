@@ -37,8 +37,18 @@ color: #997062;
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'TTSansBold';
+  src: url('./fonts/TT-Backwards-Sans-Bold-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 .SANS-THIN{
   font-family: "TTSansThin";
+}
+
+.SANS-BOLD{
+  font-family: "TTSansBold";
 }
 
 .SANS-REGULAR{
