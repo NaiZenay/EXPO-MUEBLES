@@ -26,10 +26,10 @@ const Nav = () => {
                                 MARCAS
                             </Link>
                             <ul className="dropdown-menu border-dark rounded-3 p-3 limon-viejo-BG SANS-REGULAR" aria-labelledby="navbarDropdown">
-                                <li><Link to={"/"} className="dropdown-item link-NAV p-0 limon-viejo-BG" href="#">Action</Link></li>
-                                <li><Link to={"/"} className="dropdown-item link-NAV p-0 limon-viejo-BG" href="#">Another action</Link></li>
-                                <li><Link to={"/"} className="dropdown-item link-NAV p-0 limon-viejo-BG" href="#">Something else here</Link></li>
-                                <li><Link to={"/"} className="dropdown-item link-NAV p-0 limon-viejo-BG" href="#">Something else here</Link></li>
+                                <li><Link to={"/"} className="dropdown-item link-NAV p-0 limon-viejo-BG" href="#">REQUIEZ</Link></li>
+                                <li><Link to={"/"} className="dropdown-item link-NAV p-0 limon-viejo-BG" href="#">LABENZE</Link></li>
+                                <li><Link to={"/"} className="dropdown-item link-NAV p-0 limon-viejo-BG" href="#">INFINITI</Link></li>
+                                <li><Link to={"/"} className="dropdown-item link-NAV p-0 limon-viejo-BG" href="#">INTERFACE</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">

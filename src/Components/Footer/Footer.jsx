@@ -11,9 +11,9 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-4">
                     <h5>CONTACTO</h5>
-                    <a className='text-dark text-decoration-none' href="mailto:hola@gruporequiez.com">hola@gruporequiez.com</a>
+                    <a className='text-dark text-decoration-none fw-bold' href="mailto:hola@gruporequiez.com">hola@gruporequiez.com</a>
                     <br />
-                    <a className='text-dark text-decoration-none' href="tel:3338337788" >+52 33 3833 7788</a>
+                    <a className='text-dark text-decoration-none fw-bold' href="tel:3338337788" >+52 33 3833 7788</a>
                 </div>
                 <div className="col-lg-4">
                     <h5>SUSCRIBETE AL NEWSLETTER</h5>

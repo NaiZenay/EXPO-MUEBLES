@@ -7,7 +7,15 @@
     padding-right: 7%;
 }
 
-/* home.css */
+.banco-lanzamiento{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: -45px;
+    rotate: 355deg;
+    right: 26%;
+}
+
 #home-content {
     position: relative;
     visibility: hidden; /* Ocultar contenido hasta que la animación inicie */
