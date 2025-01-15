@@ -1,45 +1,90 @@
-.titulo-marcas{
+.titulo-marcas {
     font-size: 12rem;
     font-weight: 800;
     z-index: 1000;
 }
 
-.contenedor-marca{
+.contenedor-marca {
     height: 120vh;
 }
 
-.logo-marcas{
+.logo-marcas {
     width: 200px;
     height: auto;
-  }
-.portada{
-    transition: 1s all ease-in-out;
-    &:hover{
-        transform: scale(1.8);
-        z-index: 2000;
-    }
 }
 
-#requiez{
+.portada {
+ 
+}
+
+#requiez {
     position: absolute;
     top: 5%;
     left: 5%;
 }
 
-#labenze{
+#labenze {
     position: absolute;
-    bottom: 3%;
+    bottom: 1%;
     left: 60%;
 }
 
-#infiniti{
+#infiniti {
     position: absolute;
-    right: 3%;
-    top: 7%;
+    right: 5%;
+    top: 3%;
 }
 
-#interface{
+#interface {
+    width: 900px;
     position: absolute;
     left: 4%;
     bottom: 12%;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .banner-HOME {
+        height: 90vh;
+    }
+}
+
+/* Pantallas Extra Grandes (Desktop grande) */
+@media (min-width: 1920px) {
+    .titulo-marcas {
+        font-size: 16rem;
+    }
+
+    .logo-marcas {
+        width: 300px;
+        height: auto;
+    }
+
+    #requiez {
+        width: 950px;
+        height: auto;
+        top: 5%;
+        left: 5%;
+    }
+
+    img.portada {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #labenze {
+        width: 950px;
+        bottom: 13%;
+        left: 50%;
+    }
+
+    #infiniti {
+        width: 850px;
+        right: 3%;
+        top: 9%;
+    }
+
+    #interface {
+        left: 4%;
+        bottom: 6%;
+    }
 }

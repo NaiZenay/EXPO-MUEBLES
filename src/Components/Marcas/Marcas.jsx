@@ -18,7 +18,7 @@ const Marcas = () => {
             <p className="SANS-REGULAR text-light fs-5">La mejor línea de sillas y <br /> sillones para oficina.</p>
           </div>
           <div className="col-lg-9">
-            <img src={Portada_requiez} className="portada" style={{width:450}} alt="Portada de Requiez" />
+            <img src={Portada_requiez} className="portada"style={{width:350}} alt="Portada de Requiez" />
           </div>
         </div>
       </div>
@@ -40,13 +40,13 @@ const Marcas = () => {
 
       <div id="interface">
         <div className="row">
-          <div className="col-lg-6 d-flex flex-column align-items-start justify-content-end">
+          <div className="col-lg-4 p-0 m-0 d-flex flex-column align-items-start justify-content-end">
             <img src={logo_INTERFACE} className="logo-marcas" alt="logo interface" />
             <p className="SANS-REGULAR text-start text-light fs-5 mt-3">
               Pisos con la menor huella <br /> de carbono del mercado.
             </p>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-7 p-0 m-0">
             <img src={Portada_Interface} className="portada" style={{width:300}} alt="Portada Interface" />
           </div>
         </div>
@@ -57,7 +57,7 @@ const Marcas = () => {
           <div className="col-lg-7">
             <img src={Portada_Labenze} className="portada" style={{width:450}} alt="Portada Labenze" />
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-8">
             <img src={logo_LABENZE} className="logo-marcas" alt="logo Labenze" />
             <p className="SANS-REGULAR text-light fs-5">Una linea ideal de mobiliario contract corporativo y residencial.</p>
           </div>

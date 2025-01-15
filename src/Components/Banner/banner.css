@@ -1,12 +1,12 @@
-.banner-HOME{
+.banner-HOME {
     height: 85vh;
 }
 
-.texto-banner{
+.texto-banner {
     font-size: 4rem;
 }
 
-.recuadro-banner-NOSOTROS{
+.recuadro-banner-NOSOTROS {
     height: 500px;
     width: 500px;
     position: absolute;
@@ -15,7 +15,7 @@
     z-index: 3;
 }
 
-.recuadro-banner-marca{
+.recuadro-banner-marca {
     height: 80px;
     width: 700px;
     position: absolute;
@@ -50,8 +50,35 @@
     transform: translate(10px, -10px);
 }
 
-@media (min-width:768px) and (max-width:1024px){
-    .banner-HOME{
+@media (min-width:768px) and (max-width:1024px) {
+    .banner-HOME {
         height: 90vh;
     }
 }
+
+/* Pantallas Extra Grandes (Desktop grande) */
+@media (min-width: 1920px) and (max-width:2300px) {
+
+    .texto-banner {
+        font-size: 6rem;
+    }
+
+    .recuadro-banner-NOSOTROS {
+        height: 500px;
+        width: 800px;
+        top: 20%;
+        right: 30%;
+        z-index: 3;
+    }
+    .recuadro-banner-marca {
+        height: 120px;
+        width: 900px;
+        position: absolute;
+        top: 18%;
+        right: -2%;
+        z-index: 3;
+    }
+}
+
+/* Pantallas Medianas (Laptops medianas y más pequeñas) */
+@media (max-width: 1280px) {}

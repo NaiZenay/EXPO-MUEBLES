@@ -5,7 +5,11 @@ import 'swiper/css/navigation';
 import "./carrusel.css";
 import { Pagination, Navigation } from 'swiper/modules';
 import { Link } from "react-router-dom"
-import logo_Labenze from "../../assets/logos/labenze.webp"
+import infiniti from "../../assets/logos/infiniti_color.png"
+import interrface from "../../assets/logos/interface_color.png"
+import labenze from "../../assets/logos/labenze_color.png"
+import requiez from "../../assets/logos/requiez_color.png"
+
 import menta from "../../assets/Prod/MentaPOP.png"
 import mimosas from "../../assets/Prod/Mimosas.png"
 import rr from "../../assets/Prod/Round&Roll.png"
@@ -30,11 +34,11 @@ const Carrusel = () => {
                             {/* MARCA */}
                             <NombreProducto nombre={"Menta_POP"}/>
                             {/* NOMBRE DE PRODUCTO */}
-                            <img className="logo-marca" src={logo_Labenze} alt="labenze" />
+                            <img className="logo-marca" src={labenze} alt="labenze" />
                         </div>
                         <div className="col-lg-8">
                             {/* IMAGEN DE PRODUCTO  */}
-                            <img className="imgCardCarrusel" width={320} height={320} src={menta} alt="" />
+                            <img className="imgCardCarrusel " src={menta} alt="" />
                         </div>
                     </div>
                 </Link>
@@ -46,11 +50,11 @@ const Carrusel = () => {
                             <NombreProducto nombre={"mimosas"}/>
                             
                             {/* NOMBRE DE PRODUCTO */}
-                            <img className="logo-marca" src={logo_Labenze} alt="labenze" />
+                            <img className="logo-marca" src={labenze} alt="labenze" />
                         </div>
                         <div className="col-lg-8">
                             {/* IMAGEN DE PRODUCTO  */}
-                            <img className="imgCardCarrusel" width={320} height={320} src={mimosas} alt="" />
+                            <img className="imgCardCarrusel " src={mimosas} alt="" />
                         </div>
                     </div>
                 </Link>
@@ -59,66 +63,13 @@ const Carrusel = () => {
                     <div className='row'>
                         <div className="col-lg-8">
                             {/* IMAGEN DE PRODUCTO  */}
-                            <img className="imgCardCarrusel" width={420} height={320} src={rr} alt="" />
+                            <img className="imgCardCarrusel " src={rr} alt="" />
                         </div>
                         <div className="col-lg-4 d-flex flex-column align-items-end justify-content-end" style={{ height: '350px' }}>
                         <NombreProducto nombre={"round & Roll"}/>
                             {/* NOMBRE DE PRODUCTO */}
-                            <img className="logo-marca mt-2" src={logo_Labenze} alt="labenze" />
+                            <img className="logo-marca mt-2" src={infiniti} alt="infiniti" />
                         </div>
-
-
-                    </div>
-                </Link>
-            </SwiperSlide>
-       
-            <SwiperSlide className='m-0 slide-wrapper'>
-                <Link className="text-decoration-none text-dark" id="div1" to="/">
-                    <div className='row'>
-                        <div className="col-lg-3">
-                            {/* MARCA */}
-                            <span className="SANS-REGULAR fs-3"><span className="limon-viejo-TXT">___</span>NOMBRE</span><br />
-                            {/* NOMBRE DE PRODUCTO */}
-                            <img className="logo-marca" src={logo_Labenze} alt="labenze" />
-                        </div>
-                        <div className="col-lg-9">
-                            {/* IMAGEN DE PRODUCTO  */}
-                            <img className="imgCardCarrusel" width={350} height={350} src="https://test.labenze.com/uploads/Productos/BAKHITA/ImgsAmbientas/bakhita_01_1.jpg" alt="" />
-                        </div>
-                    </div>
-                </Link>
-
-                <Link className="text-decoration-none text-dark" id="div2" to="/">
-                    <div className='row'>
-                        <div className="col-lg-3">
-                            {/* MARCA */}
-                            <span className="SANS-REGULAR fs-3"><span className="limon-viejo-TXT">___</span>NOMBRE</span><br />
-                            {/* NOMBRE DE PRODUCTO */}
-                            <img className="logo-marca" src={logo_Labenze} alt="labenze" />
-                        </div>
-                        <div className="col-lg-9">
-                            {/* IMAGEN DE PRODUCTO  */}
-                            <img className="imgCardCarrusel" width={350} height={350} src="https://test.labenze.com/uploads/Productos/BAKHITA/ImgsAmbientas/bakhita_01_1.jpg" alt="" />
-                        </div>
-                    </div>
-                </Link>
-
-                <Link className="text-decoration-none text-dark" id="div3" to="/">
-                    <div className='row'>
-                        <div className="col-lg-9">
-                            {/* IMAGEN DE PRODUCTO  */}
-                            <img className="imgCardCarrusel" width={450} height={350} src="https://test.labenze.com/uploads/Productos/BAKHITA/ImgsAmbientas/bakhita_01_1.jpg" alt="" />
-                        </div>
-                        <div className="col-lg-3 d-flex flex-column align-items-end justify-content-end" style={{ height: '350px' }}>
-                            {/* MARCA */}
-                            <span className="SANS-REGULAR fs-3">
-                                <span className="limon-viejo-TXT">___</span>NOMBRE
-                            </span>
-                            {/* NOMBRE DE PRODUCTO */}
-                            <img className="logo-marca mt-2" src={logo_Labenze} alt="labenze" />
-                        </div>
-
-
                     </div>
                 </Link>
             </SwiperSlide>

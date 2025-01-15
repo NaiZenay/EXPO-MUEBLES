@@ -27,15 +27,30 @@
   top: 0%;
   left: 15%;
 }
+#div1 img{
+  width: 300px;
+  height: auto;
+}
 
 #div2 {
   top: 25%;
   right: 11%;
 }
 
-#div3 {
-  bottom: 7%;
+#div2 img{
+  width: 300px;
+  height: auto;
+}
+
+
+#div3{
+  bottom: 5%;
   left: 8%;
+}
+
+#div3 img{
+  width: 400px;
+  height: auto;
 }
 
 /* Responsive */
@@ -49,4 +64,55 @@
     height: auto;
     margin-bottom: 20px;
   }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+  .banner-HOME{
+      height: 90vh;
+  }
+}
+
+/* Pantallas Extra Grandes (Desktop grande) */
+@media (min-width: 1920px) {
+  #div1 {
+    width: 600px;
+    top: 8%;
+    left: 8%;
+  }
+  
+  #div2 {
+    width: 600px;
+    top: 30%;
+    right: 21%;
+  }
+  
+  #div3 {
+    bottom: 2%;
+    left: 8%;
+  }
+
+  #div1 img{
+    width: 520px;
+    height: auto;
+  }
+
+  #div2 img{
+    width: 520px;
+    height: auto;
+  }
+
+  #div3 img{
+    width: 620px;
+    height: auto;
+  }
+}
+
+/* Pantallas Grandes (Laptops grandes o monitores de escritorio estándar) */
+@media (max-width: 1440px) {
+ 
+}
+
+/* Pantallas Medianas (Laptops medianas y más pequeñas) */
+@media (max-width: 1280px) {
+
 }

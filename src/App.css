@@ -21,7 +21,7 @@ color: #997062;
 }
 
 .logo-marca{
-  width: 150px;
+  width: 150px !important;
   height: auto;
 }
 

@@ -3,6 +3,7 @@
     line-height: 90%;
 }
 .lanzamientos-container{
+    margin-top: 5%;
     padding-left: 7%;
     padding-right: 7%;
 }
@@ -20,3 +21,33 @@
     position: relative;
     visibility: hidden; /* Ocultar contenido hasta que la animación inicie */
   }
+
+  @media (min-width:768px) and (max-width:1024px){
+    .banner-HOME{
+        height: 90vh;
+    }
+}
+
+/* Pantallas Extra Grandes (Desktop grande) */
+@media (min-width: 1920px) {
+    .banco-lanzamiento{
+        width: 300px;
+        rotate: 355deg;
+        right: 35%;
+        top: -65px;
+    }
+    .lanzamientos-container{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+}
+
+/* Pantallas Grandes (Laptops grandes o monitores de escritorio estándar) */
+@media (max-width: 1440px) {
+   
+}
+
+/* Pantallas Medianas (Laptops medianas y más pequeñas) */
+@media (max-width: 1280px) {
+
+}

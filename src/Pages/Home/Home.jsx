@@ -11,7 +11,7 @@ const Home = () => {
         <p style={{zIndex:50}} className='SANS-REGULAR lanzaminetos lh-1 fw-bolder mt-5 text-dark mb-0'>LANZAMIE
           <img src={banco} className='banco-lanzamiento' alt="Lanzamientos 2025" />
         </p>
-        <p className='SANS-REGULAR lanzaminetos text-end fw-bolder lh-1 mt-0 text-dark'>NTOS <span style={{zIndex:-5}} className='kk-TXT p-0 m-0 fw-lighter SANS-THIN'>2025</span></p>
+        <p className='SANS-BOLD lanzaminetos text-end fw-bolder lh-1 mt-0 text-dark'>NTOS <span style={{zIndex:-5}} className='kk-TXT p-0 m-0 fw-lighter SANS-THIN'>2025</span></p>
       </div>
       <Carrusel />
       <Marcas />
