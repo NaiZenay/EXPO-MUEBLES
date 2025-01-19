@@ -25,6 +25,11 @@ color: #997062;
   height: auto;
 }
 
+.logo-marcas-LG{
+  width: 230px;
+  height: auto;
+}
+
 @font-face {
   font-family: 'TTSansThin';
   src: url('./fonts/TT-Backwards-Sans-Thin-Trial.woff2') format('woff2');

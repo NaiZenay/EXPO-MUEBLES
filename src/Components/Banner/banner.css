@@ -24,6 +24,10 @@
     z-index: 3;
 }
 
+.img-portada-marca{
+    max-height: 70vh;
+}
+
 /* Transición inicial para los elementos */
 .col-lg-7 .img-fluid {
     transition: transform 0.3s ease-in-out;

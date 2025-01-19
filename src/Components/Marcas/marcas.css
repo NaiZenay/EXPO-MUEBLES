@@ -60,7 +60,7 @@
     }
 
     #requiez {
-        width: 950px;
+        width: 800px;
         height: auto;
         top: 5%;
         left: 5%;
@@ -72,19 +72,20 @@
     }
 
     #labenze {
-        width: 950px;
-        bottom: 13%;
-        left: 50%;
+        width: 40%;
+        bottom: 7%;
+        left: 60%;
     }
 
     #infiniti {
-        width: 850px;
-        right: 3%;
+        width: 700px;
+        right: 5%;
         top: 9%;
     }
 
     #interface {
+        width: 800px;
         left: 4%;
-        bottom: 6%;
+        bottom: 3%;
     }
 }

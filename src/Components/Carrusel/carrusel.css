@@ -75,7 +75,7 @@
 /* Pantallas Extra Grandes (Desktop grande) */
 @media (min-width: 1920px) {
   #div1 {
-    width: 600px;
+    width: 500px;
     top: 8%;
     left: 8%;
   }
@@ -92,17 +92,17 @@
   }
 
   #div1 img{
-    width: 520px;
+    width: 450px;
     height: auto;
   }
 
   #div2 img{
-    width: 520px;
+    width: 450px;
     height: auto;
   }
 
   #div3 img{
-    width: 620px;
+    width: 520px;
     height: auto;
   }
 }
