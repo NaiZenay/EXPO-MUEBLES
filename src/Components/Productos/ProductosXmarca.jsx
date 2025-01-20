@@ -9,105 +9,44 @@ const ProductosXmarca = () => {
     <PageContent>
       <h1 className="SANS-REGULAR">LANZAMIENTOS</h1>
       <div className="row">
-        <div className="col-lg-3 position-relative">
+       
+        <div className="col-lg-3 col-md-4 position-relative">
           <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
+            <img src={lanzamient} className="lanzamiento-tag" width={60} loading={"lazy"} alt="" />
+            <img src={producto} className="img-fluid" loading={"lazy"} alt="" />
             <NombreProducto nombre={"norman"} />
           </Link>
-        </div> <div className="col-lg-3 position-relative">
+        </div> 
+
+        <div className="col-lg-3 col-md-4 position-relative">
           <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
+            <img src={lanzamient} className="lanzamiento-tag" width={60} loading={"lazy"} alt="" />
+            <img src={producto} className="img-fluid" loading={"lazy"} alt="" />
             <NombreProducto nombre={"norman"} />
           </Link>
-        </div> <div className="col-lg-3 position-relative">
+        </div> 
+
+        <div className="col-lg-3 col-md-4 position-relative">
           <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
+            <img src={lanzamient} className="lanzamiento-tag" width={60} loading={"lazy"} alt="" />
+            <img src={producto} className="img-fluid" loading={"lazy"} alt="" />
             <NombreProducto nombre={"norman"} />
           </Link>
-        </div> <div className="col-lg-3 position-relative">
+        </div> 
+
+        <div className="col-lg-3 col-md-4 position-relative">
           <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
+            <img src={lanzamient} className="lanzamiento-tag" width={60} loading={"lazy"} alt="" />
+            <img src={producto} className="img-fluid" loading={"lazy"} alt="" />
             <NombreProducto nombre={"norman"} />
           </Link>
-        </div> <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div> <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div> <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div> <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div> <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div> <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div> <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={lanzamient} className="lanzamiento-tag" width={80} loading={"lazy"} alt="" />
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div>
+        </div> 
+
       </div>
 
       <h1 className="SANS-REGULAR">DE LINEA</h1>
       <div className="row">
-        <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div>
-        <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div>
-        <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div>     <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div>     <div className="col-lg-3 position-relative">
-          <Link to="/producto" className="text-dark text-decoration-none">
-            <img src={producto} loading={"lazy"} alt="" />
-            <NombreProducto nombre={"norman"} />
-          </Link>
-        </div>
+        
       </div>
     </PageContent>
   )
