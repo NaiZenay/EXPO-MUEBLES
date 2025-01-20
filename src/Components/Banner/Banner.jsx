@@ -24,8 +24,8 @@ const Banner = () => {
       >
         <SwiperSlide className='m-0'>
           <div className="row m-0 p-0">
-            <div className="col-lg-2"></div>
-            <div className="col-lg-4 h-100 mt-4 justify-content-end align-items-center">
+            <div className="col-lg-2 col-md-2"></div>
+            <div className="col-lg-4 col-md-4 h-100 mt-4 justify-content-end align-items-center">
               <p className='limon-viejo-TXT texto-banner lh-sm pe-0 ps-0 mt-5 text-start fw-bolder SANS-REGULAR'>DONDE LA SUSTENTABILIDAD <br /> Y EL DISEÑO <br /> SE ENCUENTRAN</p>
               <p className='SANS-REGULAR fs-1 lh-1 texto-banner'> <span className='text-dark fw-bolder'>19-22 </span>DE <br /> FEBRERO <br />
                 <img src={expo} className='logo-marca' alt="EXPO MUEBLE INTERNACIONAL 2025" />

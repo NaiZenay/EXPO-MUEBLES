@@ -1,5 +1,6 @@
 import "./banner.css"
 import ns from "../../assets/Nosotros/Nosotros_1.webp"
+import grLogo from "../../assets/logos/grLogo.png"
 const BannerNosotros = () => {
     return (
         <div className="row m-0 p-0 banner-HOME huevo-BG">
@@ -7,7 +8,7 @@ const BannerNosotros = () => {
             <div className="col-lg-3 d-flex justify-content-center align-items-end flex-column">
                 <div className="container">
                     <h1 className="limon-viejo-TXT fw-bolder SANS-REGULAR texto-banner">NOSOTROS</h1>
-                    <img src="" alt="Logo Grupo Requiez" />
+                    <img src={grLogo} className="img-fluid" alt="Logo Grupo Requiez" />
                 </div>
             </div>
             <div className="col-lg-7 d-none d-lg-flex justify-content-start align-items-center position-relative">

@@ -58,6 +58,10 @@
     .banner-HOME {
         height: 90vh;
     }
+
+    .texto-banner {
+        font-size: 3rem;
+    }
 }
 
 /* Pantallas Extra Grandes (Desktop grande) */
