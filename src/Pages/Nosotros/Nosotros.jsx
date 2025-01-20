@@ -3,7 +3,10 @@ import BannerNosotros from "../../Components/Banner/BannerNosotros";
 import PageContent from "../../LAYOUT/PageContent";
 import renderLabenze from "../../assets/Nosotros/Nosotros_2.webp";
 import almecenGR from "../../assets/Nosotros/Nosotros_3.webp";
-
+import req_logo from "../../assets/logos/requiez_color.png";
+import infiniti_logo_logo from "../../assets/logos/infiniti_color.png";
+import interface_logo from "../../assets/logos/interface_color.png";
+import labenze_logo from "../../assets/logos/labenze_color.png";
 const Nosotros = () => {
     const videoRef = useRef(null);
 
@@ -46,10 +49,10 @@ const Nosotros = () => {
             <section>
                 <PageContent>
                     <div className="row">
-                        <div className="col-lg-5 p-3">
-                            <h2 className="SANS-REGULAR fw-bolder fs-1">
+                        <div className="col-lg-5 p-3 ">
+                            <h1 className="SANS-REGULAR fw-bolder fs-1">
                                 EN CADA PRODUCTO, <br /> REFLEJO DE LA CALIDAD <br /> Y EL COMPROMISO.
-                            </h2>
+                            </h1>
                             <br />
                             <p className="SANS-REGULAR fs-4">
                                 Somos un grupo que brindamos soluciones en mobiliario para espacios de oficina, contract y hospitality.
@@ -58,20 +61,25 @@ const Nosotros = () => {
                             <p className="SANS-REGULAR fs-4 mb-5">
                                 Cada una de nuestras marcas cuenta con una escencia y personalidad propia, ofreciendo una extensa gama de acabados y colores que nos mantienen en tendencia.
                             </p>
-                            <br /><br />
-                            <img src={almecenGR} className="img-fluid" alt="Almacen grupo Requiez" />
                         </div>
-                        <div className="col-lg-1"></div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-7 ">
                             <img src={renderLabenze} alt="Render Labenze" className="mb-5 img-fluid" />
-                            <br /><br />
-                            <p className="SANS-REGULAR fs-4">
-                                Contamos con exclusividad de socios comerciales internacionales y más de 250 distribuidores en toda la república mexicana.
-                            </p>
-                            <br />
-                            <p className="SANS-REGULAR fs-4 mb-5">
-                                El catálogo de Grupo Requiez es el más extenso del país. con propuestas en tecnología diseño para corresponder a la necesidad de los distintos usuarios.
-                            </p>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-5 order-2">
+                                <img src={almecenGR} className="img-fluid" alt="Almacen grupo Requiez" />
+                            </div>
+                        <div className="col-lg-1"></div>
+
+                            <div className="col-lg-5 order-1">
+                                <p className="SANS-REGULAR fs-4">
+                                    Contamos con exclusividad de socios comerciales internacionales y más de 250 distribuidores en toda la república mexicana.
+                                </p>
+                                <br />
+                                <p className="SANS-REGULAR fs-4 mb-5">
+                                    El catálogo de Grupo Requiez es el más extenso del país. con propuestas en tecnología diseño para corresponder a la necesidad de los distintos usuarios.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </PageContent>
@@ -82,24 +90,24 @@ const Nosotros = () => {
                         height={650}
                         src="https://www.youtube.com/embed/SGA-uN8Fvgo?enablejsapi=1"
                         title="Pato Caminando Shido 1 HORA"
-                        frameBorder={0}
+                        FrameBorder={0}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin"
                         allowFullScreen
                     />
 
-                    <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-lg-3">
-                            <img src="" alt="Requiez" className="logo-marca" />
+                    <div className="row mt-5">
+                        <div className="col-lg-3 col-md-3 d-flex justify-content-center align-items-center">
+                            <img src={req_logo} alt="Requiez" className="logo-marca" />
                         </div>
-                        <div className="col-lg-3">
-                            <img src="" alt="Labenze" className="logo-marca" />
+                        <div className="col-lg-3 col-md-3 d-flex justify-content-center align-items-center">
+                            <img src={labenze_logo} alt="Labenze" className="logo-marca" />
                         </div>
-                        <div className="col-lg-3">
-                            <img src="" alt="Infiniti" className="logo-marca" />
+                        <div className="col-lg-3 col-md-3 d-flex justify-content-center align-items-center">
+                            <img src={infiniti_logo_logo} alt="Infiniti" className="logo-marca" />
                         </div>
-                        <div className="col-lg-3">
-                            <img src="" alt="Interface" className="logo-marca" />
+                        <div className="col-lg-3 col-md-3 d-flex justify-content-center align-items-center">
+                            <img src={interface_logo} alt="Interface" className="logo-marca" />
                         </div>
                     </div>
                 </PageContent>
