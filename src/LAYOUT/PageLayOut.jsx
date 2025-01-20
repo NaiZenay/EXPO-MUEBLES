@@ -9,6 +9,7 @@ const PageLayOut = ({ children }) => {
   const location = useLocation();
 
   useEffect(() => {
+    scrollTo(0,0)
     // Reiniciar la visibilidad de la pantalla de carga
     const pantallaCarga = document.getElementById("pantalla-carga");
     if (pantallaCarga) {
