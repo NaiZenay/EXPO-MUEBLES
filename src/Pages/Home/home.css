@@ -22,9 +22,23 @@
     visibility: hidden; /* Ocultar contenido hasta que la animación inicie */
   }
 
-  @media (min-width:768px) and (max-width:1024px){
+  @media (min-width:768px) and (max-width:1023px){
     .banner-HOME{
         height: 90vh;
+    }
+    .lanzaminetos{
+        font-size: 8rem;
+        line-height: 90%;
+    }
+    .banco-lanzamiento{
+        width: 170px;
+        rotate: 355deg;
+        right: 7%;
+        top: -30px;
+    }
+    .lanzamientos-container{
+        padding-left: 12%;
+        padding-right: 12%;
     }
 }
 

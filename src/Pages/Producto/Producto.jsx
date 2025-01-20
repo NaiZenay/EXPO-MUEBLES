@@ -11,25 +11,25 @@ const Producto = () => {
                 <div className="col-lg-6">
                     <img src={amb} className="img-fluid" loading="lazy" alt="" />
                     <div className="row mt-5">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-4">
                             <img src={prod} className="img-fluid" loading="lazy" alt="" />
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-4">
                             <img src={prod} className="img-fluid" loading="lazy" alt="" />
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-4">
                             <img src={prod} className="img-fluid" loading="lazy" alt="" />
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-6 ps-5">
                     <h2 className="SANS-BOLD fs-1  text-start">
-                        <div className="row mb-0">
-                            <div className="col-lg-8">
+                        <div className="row mt-5 mb-0">
+                            <div className="col-lg-8 col-md-6">
                                 <span className="limon-viejo-TXT">___</span>NUTA LIGHT
                                 <h4 className="SANS-THIN fw-light fs-5 mt-4">Diseñado por Favaretto </h4>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-5">
                                 <img src={lanzamineto} className="lanzamineto-Tag-producto" alt="" />
                             </div>
                         </div>
