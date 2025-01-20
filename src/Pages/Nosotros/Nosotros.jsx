@@ -66,12 +66,12 @@ const Nosotros = () => {
                             <img src={renderLabenze} alt="Render Labenze" className="mb-5 img-fluid" />
                         </div>
                         <div className="row">
-                            <div className="col-lg-5 order-2">
+                            <div className="col-lg-5 order-lg-1 order-md-2">
                                 <img src={almecenGR} className="img-fluid" alt="Almacen grupo Requiez" />
                             </div>
-                        <div className="col-lg-1"></div>
+                            <div className="col-lg-1 order-lg-2"></div>
 
-                            <div className="col-lg-5 order-1">
+                            <div className="col-lg-5 order-lg-3 order-md-1">
                                 <p className="SANS-REGULAR fs-4">
                                     Contamos con exclusividad de socios comerciales internacionales y más de 250 distribuidores en toda la república mexicana.
                                 </p>
